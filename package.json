@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "doc:dev": "vuepress dev docs",
-    "doc:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "sh build/deploy.sh"
   },
   "author": "ddsoma",
   "license": "ISC",
