@@ -1,0 +1,15 @@
+{
+  "name": "hello-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc:dev": "vuepress dev docs",
+    "doc:build": "vuepress build docs"
+  },
+  "author": "ddsoma",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^0.14.2"
+  }
+}
